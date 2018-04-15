@@ -16,7 +16,7 @@
 #background{
 		background:url(../Images/SignUpBackground.JPG);
 		background-repeat:no-repeat;
-		background-size: 1280px 615px;
+		background-size: 100% auto;
 	}
 
 
@@ -45,7 +45,7 @@
 		<ul class="nav navbar-nav">
 			<li><a href="../index.html">Home</a></li>
 			<li><a href="../Categories/Categories.html">Categories</a></li>
-			<li><a href="../StudentFood/ContactUS.html">Contact Us</a></li>
+			<li><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -54,22 +54,21 @@
 		</div>
 	</nav>
 		<h1 style="position:absolute;left:10%;top:20% ;font-size:100px;animation:animation 4s infinite">StudentGO</h1>
-		
-		</div>
+	
 		<br/><br/>
 		
-		<form style="padding-top:250px ; padding-left:20px">
+		<form style="padding-top:250px ; padding-left:50px">
 		
 			<div class="mb-3">
                 <label for="firstName" style="margin-right:10px">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" style="width: 30%">
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" style="width: 30%"/>
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>	
 				<div class="mb-3">
                 <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" style="width: 30%">
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" style="width: 30%"/>
                 <div class="invalid-feedback">
                   Valid last name is required.
                 </div>
@@ -80,7 +79,7 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text"></span>
                 </div>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="" style="left: 0px; top: 0px; width: 100%"><br/><br/>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="" style="left: 0px; top: 0px; width: 100%"/><br/><br/>
                 <div class="invalid-feedback" style="width: 100%;">
                   Your username is required.
                 </div>
@@ -91,18 +90,17 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text"></span>
                 </div>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="" style="left: 0px; top: 0px; width: 100%"><br/><br/>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="" style="left: 0px; top: 0px; width: 100%"/><br/><br/>
                 <div class="invalid-feedback" style="width: 100%;">
                    The password must be contain character and number. (For example: flappybird2018)
               </div>
 
                 </div>
-              </div>
             
 
                         <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com" style="width: 30%">
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" style="width: 30%"/>
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
               </div>
@@ -140,14 +138,12 @@
               
               </div>
                 <label for="zip">Zip</label>
-                <input type="text" class="form-control" id="zip" placeholder="" required="" style="width: 8%">
+                <input type="text" class="form-control" id="zip" placeholder="" required="" style="width: 8%"/>
                 <div class="invalid-feedback">
                   Zip code required.
                 
               </div>
-            </div>
-            </div>
-            
+            <div class="btn btn-primary" style="margin-top:20px">Submit</div> 
 		</form>
 		
 		</body>
